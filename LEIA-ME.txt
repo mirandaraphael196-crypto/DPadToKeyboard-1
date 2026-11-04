@@ -1,0 +1,26 @@
+DPadToKeyboard — pacote para compilar pelo GitHub Actions
+
+Mapeamento:
+- DPadUp -> U
+- DPadRight -> B
+- DPadDown -> G
+- DPadLeft -> A
+
+Como usar:
+1. Crie um repositório NOVO no GitHub (pode ser privado).
+2. Envie TODOS os arquivos e pastas deste ZIP para a raiz do repositório.
+   É importante manter a pasta .github/workflows/build.yml.
+3. Abra a aba Actions do repositório.
+4. Abra a execução "Build DPadToKeyboard".
+5. Aguarde terminar com marca verde.
+6. Abra a execução concluída, vá até Artifacts e baixe "DPadToKeyboard-mod".
+7. Extraia o ZIP do artifact. Dentro haverá o ZIP do mod gerado em _releases.
+8. Instale o ZIP do mod extraído no Android, dentro de Mods conforme o método usado pelo seu SMAPI Android.
+
+Se a execução ficar vermelha:
+- Abra a execução e copie o primeiro erro vermelho (ou envie captura de tela).
+- Não instale nenhum arquivo produzido por uma compilação com erro.
+
+Aviso:
+A compilação bem-sucedida não substitui o teste no controle físico Android.
+O código assume que o controle reporta o direcional como DPadUp/Right/Down/Left.

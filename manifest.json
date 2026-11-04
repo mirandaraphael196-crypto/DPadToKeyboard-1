@@ -1,0 +1,9 @@
+{
+  "Name": "DPad To Keyboard",
+  "Author": "ChatGPT",
+  "Version": "%ProjectVersion%",
+  "Description": "Converte as quatro direções do direcional em teclas do teclado.",
+  "UniqueID": "ChatGPT.DPadToKeyboard",
+  "EntryDll": "DPadToKeyboard.dll",
+  "MinimumApiVersion": "4.3.0"
+}
